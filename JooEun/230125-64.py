@@ -59,6 +59,8 @@ Given a `m x n` `grid` filled with non-negative numbers, find a path from top
 left to bottom right, which minimizes the sum of all numbers along its path.
 
 **Note:** You can only move either down or right at any point in time.
+
+=> input matrix 에 바로 작성하여 메모리 사용량을 줄일 수 있음
 """
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
